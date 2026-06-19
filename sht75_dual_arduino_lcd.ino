@@ -33,8 +33,8 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 const uint8_t SHT75_DATA_PIN_1 = 2;    // Первый датчик - линия данных
 const uint8_t SHT75_SCLK_PIN_1 = 3;    // Первый датчик - линия тактов
 
-const uint8_t SHT75_DATA_PIN_2 = 10;   // Второй датчик - линия данных
-const uint8_t SHT75_SCLK_PIN_2 = 11;   // Второй датчик - линия тактов
+const uint8_t SHT75_DATA_PIN_2 = A2;   // Второй датчик - линия данных
+const uint8_t SHT75_SCLK_PIN_2 = A3;   // Второй датчик - линия тактов
 
 // ===== ПИНЫ КНОПОК =====
 const int buttonPin = A0;  // Аналоговый вход для кнопок
